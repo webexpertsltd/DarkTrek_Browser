@@ -36,9 +36,9 @@ const char kChromeVersion[] = CHROME_VERSION_STRING;
 
 #if defined(OS_WIN)
 const base::FilePath::CharType kBrowserProcessExecutableName[] =
-    FPL("brave.exe");
+    FPL("darktrek.exe");
 const base::FilePath::CharType kHelperProcessExecutableName[] =
-    FPL("brave.exe");
+    FPL("darktrek.exe");
 #elif defined(OS_MAC)
 const base::FilePath::CharType kBrowserProcessExecutableName[] =
     FPL(PRODUCT_STRING);
@@ -46,11 +46,11 @@ const base::FilePath::CharType kHelperProcessExecutableName[] =
     FPL(PRODUCT_STRING " Helper");
 #elif defined(OS_ANDROID)
 // NOTE: Keep it synced with the process names defined in AndroidManifest.xml.
-const base::FilePath::CharType kBrowserProcessExecutableName[] = FPL("brave");
+const base::FilePath::CharType kBrowserProcessExecutableName[] = FPL("darktrek");
 const base::FilePath::CharType kHelperProcessExecutableName[] =
     FPL("sandboxed_process");
 #elif defined(OS_POSIX)
-const base::FilePath::CharType kBrowserProcessExecutableName[] = FPL("brave");
+const base::FilePath::CharType kBrowserProcessExecutableName[] = FPL("darktrek");
 // Helper processes end up with a name of "exe" due to execing via
 // /proc/self/exe.  See bug 22703.
 const base::FilePath::CharType kHelperProcessExecutableName[] = FPL("exe");
@@ -58,20 +58,20 @@ const base::FilePath::CharType kHelperProcessExecutableName[] = FPL("exe");
 
 #if defined(OS_WIN)
 const base::FilePath::CharType kBrowserProcessExecutablePath[] =
-    FPL("brave.exe");
+    FPL("darktrek.exe");
 const base::FilePath::CharType kHelperProcessExecutablePath[] =
-    FPL("brave.exe");
+    FPL("darktrek.exe");
 #elif defined(OS_MAC)
 const base::FilePath::CharType kBrowserProcessExecutablePath[] =
     FPL(PRODUCT_STRING ".app/Contents/MacOS/" PRODUCT_STRING);
 const base::FilePath::CharType kHelperProcessExecutablePath[] =
     FPL(PRODUCT_STRING " Helper.app/Contents/MacOS/" PRODUCT_STRING " Helper");
 #elif defined(OS_ANDROID)
-const base::FilePath::CharType kBrowserProcessExecutablePath[] = FPL("brave");
-const base::FilePath::CharType kHelperProcessExecutablePath[] = FPL("brave");
+const base::FilePath::CharType kBrowserProcessExecutablePath[] = FPL("darktrek");
+const base::FilePath::CharType kHelperProcessExecutablePath[] = FPL("darktrek");
 #elif defined(OS_POSIX)
-const base::FilePath::CharType kBrowserProcessExecutablePath[] = FPL("brave");
-const base::FilePath::CharType kHelperProcessExecutablePath[] = FPL("brave");
+const base::FilePath::CharType kBrowserProcessExecutablePath[] = FPL("darktrek");
+const base::FilePath::CharType kHelperProcessExecutablePath[] = FPL("darktrek");
 #endif  // OS_*
 
 #if defined(OS_MAC)
