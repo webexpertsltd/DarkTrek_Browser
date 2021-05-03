@@ -16,9 +16,9 @@ declare_args() {
   sparkle_eddsa_private_key = ""
   sparkle_eddsa_public_key = ""
 
-  brave_product_name = ""
-  brave_project_name = ""
-  brave_exe = ""
+  brave_product_name = "DarkTrek"
+  brave_project_name = "DarkTrek"
+  brave_exe = "darktrek"
   brave_version_major = ""
   brave_version_minor = ""
   brave_version_build = ""
