@@ -13,7 +13,7 @@ copy("copy_exe") {
   ]
 
   outputs = [
-    "$root_out_dir/brave.exe",
+    "$root_out_dir/darktrek.exe",
   ]
 
   deps = [
