@@ -444,7 +444,7 @@ TEST_P(InstallStaticUtilTest, GetBaseAppId) {
 #if defined(OFFICIAL_BUILD)
   // The base app ids for the brand's install modes; parallel to kInstallModes.
   static constexpr const wchar_t* kBaseAppIds[] = {
-      L"Brave", L"BraveBeta", L"BraveDev", L"BraveNightly",
+      L"DarkTrek", L"BraveBeta", L"BraveDev", L"BraveNightly",
   };
 #else
   // The base app ids for the brand's install modes; parallel to kInstallModes.

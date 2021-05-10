@@ -17,7 +17,7 @@ const char* GetApplicationName();
   } else  // NOLINT
 
 #define BRAVE_KEY_STORAGE_LIBSECRET_K_APPLICATION_NAME \
-  const char kApplicationName[] = "brave";
+  const char kApplicationName[] = "DarkTrek";
 
 #include "../../../../components/os_crypt/key_storage_libsecret.cc"
 #undef BRAVE_KEY_STORAGE_LIBSECRET_K_APPLICATION_NAME

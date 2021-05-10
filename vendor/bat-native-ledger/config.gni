@@ -11,6 +11,4 @@ declare_args() {
 }
 
 if (is_official_build && !is_ios) {
-  assert(uphold_client_id != "")
-  assert(uphold_client_secret != "")
 }

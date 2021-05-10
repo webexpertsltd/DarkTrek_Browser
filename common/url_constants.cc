@@ -7,7 +7,7 @@
 #include "brave/common/url_constants.h"
 
 const char kChromeExtensionScheme[] = "chrome-extension";
-const char kBraveUIScheme[] = "brave";
+const char kBraveUIScheme[] = "darktrek";
 const char kMagnetScheme[] = "magnet";
 const char kBinanceScheme[] = "com.brave.binance";
 const char kGeminiScheme[] = "com.brave.gemini";

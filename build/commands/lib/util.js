@@ -411,7 +411,7 @@ const util = {
     if (!fs.existsSync(dir))
       fs.mkdirSync(dir);
 
-    fs.copySync(path.join(config.outputDir, 'brave.exe'), path.join(dir, 'brave.exe'));
+    fs.copySync(path.join(config.outputDir, 'darktrek.exe'), path.join(dir, 'darktrek.exe'));
     fs.copySync(path.join(config.outputDir, 'chrome.dll'), path.join(dir, 'chrome.dll'));
 
     util.run('python', [path.join(config.braveCoreDir, 'script', 'sign_binaries.py'), '--build_dir=' + dir])
@@ -433,7 +433,7 @@ const util = {
 
     console.log('generate Widevine sig files...')
 
-    util.run('python', [sig_generator, '--input_file=' + path.join(src_dir, 'brave.exe'),
+    util.run('python', [sig_generator, '--input_file=' + path.join(src_dir, 'darktrek.exe'),
         '--flags=1',
         '--certificate=' + cert,
         '--private_key=' + key,

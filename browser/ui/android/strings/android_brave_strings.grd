@@ -302,7 +302,7 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
         Enable bottom toolbar
       </message>
       <message name="IDS_SETTINGS_REQUIRE_RELAUNCH_NOTICE" desc="Text for message asked about browser relaunch to apply new settings">
-        Your changes will take effect the next time you relaunch Brave
+        Your changes will take effect the next time you relaunch DarkTrek
       </message>
       <message name="IDS_SETTINGS_REQUIRE_RELAUNCH_NOW" desc="Text on the button causes relaunch browser now">
         RELAUNCH NOW
@@ -946,22 +946,22 @@ until they verify, or until 90 days have passed.
         This Brave Verified Creator has not yet configured their account to receive contributions from Brave users. Any tips you send will remain in your wallet until they complete this process.
       </message>
       <message name="IDS_BRAVE_DEFAULT" desc="Text for brave default settings option.">
-        Brave Default
+        DarkTrek Default
       </message>
       <message name="IDS_SHARE_BRAVE_WITH_YOUR_FRIENDS" desc="Title text for share dialog.">
-        Share Brave with your friends!
+        Share DarkTrek with your friends!
       </message>
       <message name="IDS_BRAVE_REWARDS_LOCAL_GENERAL_GRANT_ERROR_TITLE" desc="">
         Oops, something is wrong. Please try again later.
       </message>
       <message name="IDS_PREFS_RATE_BRAVE" desc="Title for rate brave settings option.">
-        Rate Brave
+        Rate DarkTrek
       </message>
       <message name="IDS_RATE" desc="Text for rate brave dialog button.">
         Rate
       </message>
       <message name="IDS_HOW_WOULD_YOU_RATE" desc="Text for rate brave dialog.">
-        How would you rate your experience with Brave?
+        How would you rate your experience with DarkTrek?
       </message>
       <message name="IDS_SHARE_YOUR_THOUGHTS" desc="Text for rate brave dialog button.">
         Share your thoughts
@@ -1273,10 +1273,10 @@ until they verify, or until 90 days have passed.
         Start browsing to see privacy reporting
       </message>
       <message name="IDS_SET_BRAVE_AS_YOUR" desc="Deafult browser notification text">
-        Set Brave as your default browser for private and secure browsing.
+        Set DarkTrek as your default browser for private and secure browsing.
       </message>
       <message name="IDS_ALLOWS_BRAVE_TO_SHOW" desc="Brave stats pref summary text">
-        Allows Brave to show your privacy statistics
+        Allows DarkTrek to show your privacy statistics
       </message>
       <message name="IDS_SENDS_A_WEEKLY" desc="Brave stats pref summary text">
         Sends a weekly privacy report
@@ -1564,16 +1564,16 @@ until they verify, or until 90 days have passed.
         Some search engines protect your privacy better than others when you search the web.
       </message>
       <message name="IDS_P3A_ONBOARDING_TITLE_TEXT_1" desc="P3a Onboarding title text">
-        Welcome to Brave Browser
+        Welcome to DarkTrek Browser
       </message>
       <message name="IDS_P3A_ONBOARDING_TITLE_TEXT_2" desc="P3a Onboarding title text">
         Help us learn anonymously
       </message>
       <message name="IDS_P3A_ONBOARDING_TEXT" desc="P3a Onboarding text">
-        Brave protects your privacy and\nappreciates your consent to the following:
+        DarkTrek protects your privacy and\nappreciates your consent to the following:
       </message>
       <message name="IDS_P3A_ONBOARDING_CHECKBOX_TEXT" desc="P3a onboarding checkbox text">
-        Help improve Brave by sending crash reports and completely anonymized, <ph name="PRIVATE_PRODUCT_ANALYSIS">%1$s</ph>
+        Help improve DarkTrek by sending crash reports and completely anonymized, <ph name="PRIVATE_PRODUCT_ANALYSIS">%1$s</ph>
       </message>
       <message name="IDS_PRIVATE_PRODUCT_ANALYSIS_TEXT" desc="private product analysis text">
         private product analytics.
@@ -1585,13 +1585,13 @@ until they verify, or until 90 days have passed.
         Take a quick tour to brush up on how it works to go down in history as a Rewards rockstar!
       </message>
       <message name="IDS_SET_DEFAULT_BROWSER_TITLE" desc="Set default browser modal title">
-        Open all links with Brave to protect your privacy
+        Open all links with DarkTrek to protect your privacy
       </message>
       <message name="IDS_SET_DEFAULT_BROWSER_TEXT" desc="Set default browser modal text">
         Brave Shields blocks trackers &amp; ads, saves data, and saves you time on every site you visit.
       </message>
       <message name="IDS_SET_BRAVE_DEFAULT_BROWSER" desc="Set default browser modal button text">
-        Set Brave as default
+        Set DarkTrek as default
       </message>
       <message name="IDS_NOT_NOW" desc="Set default browser modal button text">
         Not now

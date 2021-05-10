@@ -7,7 +7,7 @@ index abfb1fab34d6fc6e531c456337969dafb18d5395..f5a8f6b9aa0938bce7ae3fb970e74636
  # Chrome Application dir entries, sorted alphabetically.
  #
 -chrome.exe: %(ChromeDir)s\
-+brave.exe: %(ChromeDir)s\
++darktrek.exe: %(ChromeDir)s\
  chrome_proxy.exe: %(ChromeDir)s\
  #
  # Chrome version dir assembly manifest.

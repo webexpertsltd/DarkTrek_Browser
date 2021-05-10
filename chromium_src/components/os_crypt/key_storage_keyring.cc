@@ -24,7 +24,7 @@ void Dummy(const GnomeKeyringPasswordSchema*,
   if (false) Dummy(
 
 #define BRAVE_KEY_STORAGE_KEYRING_K_APPLICATION_NAME \
-  const char kApplicationName[] = "brave";
+  const char kApplicationName[] = "DarkTrek";
 
 #include "../../../../components/os_crypt/key_storage_keyring.cc"
 #undef BRAVE_KEY_STORAGE_KEYRING_K_APPLICATION_NAME
