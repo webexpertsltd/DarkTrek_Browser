@@ -160,11 +160,11 @@
   </translations>
   <release seq="1">
     <messages fallback_to_english="true">
-      <message name="IDS_SHOW_BRAVE_REWARDS" desc="The show Brave Rewards menu in the app menu">
-        Brave Rewards
+      <message name="IDS_SHOW_BRAVE_REWARDS" desc="The show DarkTrek Rewards menu in the app menu">
+        DarkTrek Rewards
       </message>
-      <message name="IDS_SHOW_BRAVE_ADBLOCK" desc="The show Brave Ad Block menu in the app menu">
-        Brave Ad Block
+      <message name="IDS_SHOW_BRAVE_ADBLOCK" desc="The show DarkTrek Ad Block menu in the app menu">
+        DarkTrek Ad Block
       </message>
       <message name="IDS_SHOW_BRAVE_WEBCOMPAT_REPORTER" desc="The menu item to report a broken site in the app menu">
         Report a Broken Site
@@ -172,7 +172,7 @@
       <message name="IDS_SHOW_BRAVE_SYNC" desc="The show brave sync menu in the app menu">
         Sync
       </message>
-      <message name="IDS_SHOW_BRAVE_WALLET" desc="The show Brave Wallet menu item (app menu)">
+      <message name="IDS_SHOW_BRAVE_WALLET" desc="The show DarkTrek Wallet menu item (app menu)">
         Wallet
       </message>
       <message name="IDS_ADD_NEW_PROFILE" desc="The app menu item to create a new User Profile">
@@ -184,8 +184,8 @@
       <message name="IDS_OPEN_MORE_OTHER_DEVICES_SESSIONS" desc="The history sub-menu item to show sessions from other devices">
         More…
       </message>
-      <message name="IDS_EXTENSION_CANT_INSTALL_ON_BRAVE" desc="Error message when user tries to install an extension that is not allowed in Brave.">
-        <ph name="EXTENSION_NAME">$1</ph> (extension ID "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") is not allowed in Brave.
+      <message name="IDS_EXTENSION_CANT_INSTALL_ON_BRAVE" desc="Error message when user tries to install an extension that is not allowed in DarkTrek.">
+        <ph name="EXTENSION_NAME">$1</ph> (extension ID "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") is not allowed in DarkTrek.
       </message>
       <message name="IDS_SETTINGS_IMPORT_EXTENSIONS_CHECKBOX" desc="Checkbox for importing extensions list">
         Extensions
@@ -212,7 +212,7 @@
         Automatically redirect .onion sites
       </message>
       <message name="IDS_SETTINGS_AUTO_ONION_LOCATION_DESC" desc="Text fragment for onion site component">
-        Brave will open onion service of the website when available or .onion domain in Tor window
+        DarkTrek will open onion service of the website when available or .onion domain in Tor window
       </message>
       <if expr="is_linux">
         <message name="IDS_WIDEVINE_PERMISSION_REQUEST_TEXT_FRAGMENT_INSTALL" desc="Text fragment for Widevine permission request. 'Widevine' is the name of a plugin and should not be translated.">
@@ -223,9 +223,9 @@
         </message>
       </if>
       <message name="IDS_WIDEVINE_INSTALL_MESSAGE" desc="Bubble info text when Widevine is not installed. 'Widevine' is the name of a plugin and should not be translated.">
-        Google Widevine is a piece of Digital Rights Management (DRM) code that we at Brave Software do not own and cannot inspect. The Google Widevine code is loaded from Google servers, not from our servers. It is loaded only when you enable this option. We discourage the use of DRM, but we respect user choice and acknowledge that some Brave users would like to use services that require it.
+        Google Widevine is a piece of Digital Rights Management (DRM) code that we at DarkTrek Software do not own and cannot inspect. The Google Widevine code is loaded from Google servers, not from our servers. It is loaded only when you enable this option. We discourage the use of DRM, but we respect user choice and acknowledge that some DarkTrek users would like to use services that require it.
 
-By installing this extension, you are agreeing to the Google Widevine Terms of Use. You agree that Brave is not responsible for any damages or losses in connection with your use of Google Widevine.
+By installing this extension, you are agreeing to the Google Widevine Terms of Use. You agree that DarkTrek is not responsible for any damages or losses in connection with your use of Google Widevine.
       </message>
       <!-- Autoplay -->
       <message name="IDS_SETTINGS_SITE_SETTINGS_AUTOPLAY" desc="Label for autoplay site settings.">
@@ -241,8 +241,8 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
         Continue blocking autoplay
       </message>
       <!-- Extensions -->
-      <message name="IDS_UNVETTED_EXTENSION_INSTALL_PROMPT_TITLE" desc="Titlebar of the extension or app installation prompt which was not vetted by Brave. Asks the user if they want to install a particular extension or app.">
-        Brave does not review extensions for security and safety. Only install this extension if you trust the developer.
+      <message name="IDS_UNVETTED_EXTENSION_INSTALL_PROMPT_TITLE" desc="Titlebar of the extension or app installation prompt which was not vetted by DarkTrek. Asks the user if they want to install a particular extension or app.">
+        DarkTrek does not review extensions for security and safety. Only install this extension if you trust the developer.
       </message>
       <!-- Settings / Get Started -->
       <message name="IDS_SETTINGS_BRAVE_EDIT_PROFILE" desc="Title to edit the profile user name and picture">
@@ -250,19 +250,19 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
       </message>
       <!-- Appearance -->
       <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_BRAVE_THEMES" desc="The label for brave theme change setting options">
-        Brave colors
+        DarkTrek colors
       </message>
       <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_GET_MORE_THEMES" desc="The label for opening theme web store">
         Get more themes
       </message>
       <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_BRAVE_DEFAULT_IMAGES_OPTION_LABEL" desc="The label for choosing default images over super referral">
-        Brave default images
+        DarkTrek default images
       </message>
       <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_LOCATION_BAR_IS_WIDE" desc="The label for whether the location bar should display wide or not">
         Use wide address bar
       </message>
-      <message name="IDS_SETTINGS_HIDE_BRAVE_REWARDS_BUTTON_LABEL" desc="The label for settings switch controlling the visibility of Brave Rewards button">
-        Hide Brave Rewards button
+      <message name="IDS_SETTINGS_HIDE_BRAVE_REWARDS_BUTTON_LABEL" desc="The label for settings switch controlling the visibility of DarkTrek Rewards button">
+        Hide DarkTrek Rewards button
       </message>
       <message name="IDS_SETTINGS_ALWAYS_SHOW_BOOKMARK_BAR_ON_NTP" desc="The label for settings switch controlling the visibility of bookmarks bar on NTP">
         Always show bookmarks on new tab page
@@ -276,8 +276,8 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
       <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_USE_AUTOCOMPLETE_TOP_SITES" desc="The label for settings switch controlling whether or not top sites show up in autocomplete">
         Show top sites in autocomplete suggestions
       </message>
-      <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_USE_AUTOCOMPLETE_BRAVE_SUGGESTED_SITES" desc="The label for settings switch controlling whether or not Brave suggested sites show up in autocomplete">
-        Show Brave suggested sites in autocomplete suggestions
+      <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_USE_AUTOCOMPLETE_BRAVE_SUGGESTED_SITES" desc="The label for settings switch controlling whether or not DarkTrek suggested sites show up in autocomplete">
+        Show DarkTrek suggested sites in autocomplete suggestions
       </message>
       <!-- Settings / Safety Check -->
       <message name="IDS_SETTINGS_BRAVE_SAFETY_CHECK_SAFE_BROWSING_ENABLED_STANDARD_AVAILABLE_ENHANCED" desc="This text points out that Safe Browsing is enabled as standard protection.">
@@ -285,7 +285,7 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
       </message>
       <!-- Settings / Safe Browsing -->
       <message name="IDS_SETTINGS_BRAVE_SAFEBROWSING_STANDARD_BULLET_TWO" desc="Second bullet point under the safe browsing standard protection mode">
-        Checks URLs with a list of unsafe sites stored in Brave.
+        Checks URLs with a list of unsafe sites stored in DarkTrek.
       </message>
       <message name="IDS_SETTINGS_BRAVE_SAFEBROWSING_NONE_DESC" desc="Description for safe browsing no protection mode">
         Does not protect you against dangerous websites, downloads, and extensions.
@@ -294,8 +294,8 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
       <message name="IDS_SETTINGS_NEW_TAB" desc="The text label for the New Tab settings page">
        New Tab Page
       </message>
-      <message name="IDS_SETTINGS_NEW_TAB_BRAVE_REWARDS" desc="The label for Brave Rewards show/hide feature toggle">
-        Brave Rewards
+      <message name="IDS_SETTINGS_NEW_TAB_BRAVE_REWARDS" desc="The label for DarkTrek Rewards show/hide feature toggle">
+        DarkTrek Rewards
       </message>
       <message name="IDS_SETTINGS_NEW_TAB_NEW_TAB_PAGE_SHOWS" desc="The label for New Tab Page shows customization">
         New tab page shows
@@ -384,7 +384,7 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
           Open Link in Private Window with Tor
         </message>
         <message name="IDS_CONTENT_CONTEXT_OPENLINKTOR_INAPP" desc="Title case: The name of the open a link in private window with Tor command">
-          Open Link in Brave Private Window with Tor
+          Open Link in DarkTrek Private Window with Tor
         </message>
         <message name="IDS_APP_MENU_IPFS_IMPORT_LOCAL_FILE" desc="Title case: The text label of a menu item to share local file using IPFS.">
           Share Local File Using IPFS
@@ -404,7 +404,7 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
           Open link in private window with Tor
         </message>
         <message name="IDS_CONTENT_CONTEXT_OPENLINKTOR_INAPP" desc="The name of the open a link in private window with Tor command">
-          Open link in Brave private window with Tor
+          Open link in DarkTrek private window with Tor
         </message>
         <message name="IDS_APP_MENU_IPFS_IMPORT_LOCAL_FOLDER" desc="The text label of a menu item to share local folder using IPFS.">
           Share local folder using IPFS
@@ -425,53 +425,53 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
       <message name="IDS_SETTINGS_BRAVE_ADDITIONAL_SETTINGS" desc="The title for a group of settings which are more advanced">
         Additional settings
       </message>
-      <!-- Brave Shields  -->
-      <message name="IDS_SETTINGS_BRAVE_SHIELDS_TITLE" desc="The title for Brave shields section in settings">
+      <!-- DarkTrek Shields  -->
+      <message name="IDS_SETTINGS_BRAVE_SHIELDS_TITLE" desc="The title for DarkTrek shields section in settings">
         Shields
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_TITLE" desc="The title for Brave shields Defaults sub-section in settings">
+      <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_TITLE" desc="The title for DarkTrek shields Defaults sub-section in settings">
         Block trackers and ads which follow you across the web.
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_DESCRIPTION_1" desc="The description for Brave shields Defaults sub-section in settings">
+      <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_DESCRIPTION_1" desc="The description for DarkTrek shields Defaults sub-section in settings">
         These are the default Shields settings. They apply to all websites unless you change something in the Shields panel on a particular site. Changing these won't affect your existing per-site settings.
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_DESCRIPTION_2" desc="The partial description for Brave shields Defaults sub-section in settings. The sentence is completed with `Brave rewards settings`">
-        This will block most ads on websites, not Brave private ads — those are controlled in the
+      <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_DESCRIPTION_2" desc="The partial description for DarkTrek shields Defaults sub-section in settings. The sentence is completed with `DarkTrek rewards settings`">
+        This will block most ads on websites, not DarkTrek private ads — those are controlled in the
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_DESCRIPTION_3" desc="The partial description for Brave shields Defaults sub-section in settings. Partial of `This will block most ads on websites, not Brave private ads — those are controlled in the Brave Rewards (settings)`">
+      <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_DESCRIPTION_3" desc="The partial description for DarkTrek shields Defaults sub-section in settings. Partial of `This will block most ads on websites, not DarkTrek private ads — those are controlled in the DarkTrek Rewards (settings)`">
         settings.
       </message>
       <message name="IDS_SETTINGS_SOCIAL_BLOCKING_DEFAULTS_TITLE" desc="The title the settings section which has options for blocking third-party embeds, commonly from social media sites">
         Social media blocking
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_DEFAULT_VIEW_LABEL" desc="Default Brave view title label">
+      <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_DEFAULT_VIEW_LABEL" desc="Default DarkTrek view title label">
         Default view
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_SIMPLE_VIEW_LABEL" desc="Default Brave simple view title label">
+      <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_SIMPLE_VIEW_LABEL" desc="Default DarkTrek simple view title label">
         Simple view
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_ADVANCED_VIEW_LABEL" desc="Default Brave advanced view title label">
+      <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_ADVANCED_VIEW_LABEL" desc="Default DarkTrek advanced view title label">
         Advanced view
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SHIELDS_AD_CONTROL_LABEL" desc="Default Brave block cross-site trackers control setting label">
+      <message name="IDS_SETTINGS_BRAVE_SHIELDS_AD_CONTROL_LABEL" desc="Default DarkTrek block cross-site trackers control setting label">
         Trackers &amp; ads blocking
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SHIELDS_COOKIE_CONTROL_LABEL" desc="Default Brave cookies control setting label">
+      <message name="IDS_SETTINGS_BRAVE_SHIELDS_COOKIE_CONTROL_LABEL" desc="Default DarkTrek cookies control setting label">
         Cookie blocking
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SHIELDS_FINGERPRINTING_CONTROL_LABEL" desc="Default Brave fingerprinting control setting label">
+      <message name="IDS_SETTINGS_BRAVE_SHIELDS_FINGERPRINTING_CONTROL_LABEL" desc="Default DarkTrek fingerprinting control setting label">
         Fingerprinting blocking
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SHIELDS_HTTPS_EVERYWHERE_CONTROL_LABEL" desc="Default Brave upgrade connections to HTTPS control setting label">
+      <message name="IDS_SETTINGS_BRAVE_SHIELDS_HTTPS_EVERYWHERE_CONTROL_LABEL" desc="Default DarkTrek upgrade connections to HTTPS control setting label">
         Upgrade connections to HTTPS
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SHIELDS_NO_SCRIPT_CONTROL_LABEL" desc="Default Brave script blocking control setting label">
+      <message name="IDS_SETTINGS_BRAVE_SHIELDS_NO_SCRIPT_CONTROL_LABEL" desc="Default DarkTrek script blocking control setting label">
         Block scripts
       </message>
       <message name="IDS_SETTINGS_BRAVE_SHIELDS_LOOK_AND_FEEL_TITLE" desc="The title the settings section with interface options such as showing the resources blocked badge">
         Look &amp; feel
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SHIELDS_SHOW_STATS_BLOCKED_BADGE_LABEL" desc="Default Brave show stats blocked badge control setting label">
+      <message name="IDS_SETTINGS_BRAVE_SHIELDS_SHOW_STATS_BLOCKED_BADGE_LABEL" desc="Default DarkTrek show stats blocked badge control setting label">
         Show the number of blocked items on the Shields icon
       </message>
       <message name="IDS_SETTINGS_BRAVE_SHIELDS_GOOGLE_LOGIN_LABEL" desc="Label for a switch control which allows Google social buttons to be enabled/disabled">
@@ -536,53 +536,53 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
       <message name="IDS_SETTINGS_PUSH_MESSAGING" desc="Select value">
         Use Google services for push messaging
       </message>
-      <!-- Brave Sync Settings -->
-      <message name="IDS_SETTINGS_BRAVE_SYNC_TITLE" desc="The title for Brave Sync in settings">
+      <!-- DarkTrek Sync Settings -->
+      <message name="IDS_SETTINGS_BRAVE_SYNC_TITLE" desc="The title for DarkTrek Sync in settings">
         Sync
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SYNC_SETUP_ACTION_LABEL" desc="Brave Sync setup action label">
+      <message name="IDS_SETTINGS_BRAVE_SYNC_SETUP_ACTION_LABEL" desc="DarkTrek Sync setup action label">
         Start using sync
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SYNC_SETUP_TITLE" desc="Title for the Brave Sync settings setup section">
+      <message name="IDS_SETTINGS_BRAVE_SYNC_SETUP_TITLE" desc="Title for the DarkTrek Sync settings setup section">
         Sync Setup
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SYNC_SETUP_SUBTITLE" desc="Subtitle for the Brave Sync settings setup section">
-        To start, you will need Brave installed on all the devices you plan to sync. Then, securely link them together with a sync code.
+      <message name="IDS_SETTINGS_BRAVE_SYNC_SETUP_SUBTITLE" desc="Subtitle for the DarkTrek Sync settings setup section">
+        To start, you will need DarkTrek installed on all the devices you plan to sync. Then, securely link them together with a sync code.
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SYNC_MANAGE_ACTION_LABEL" desc="Brave Sync manage action label">
+      <message name="IDS_SETTINGS_BRAVE_SYNC_MANAGE_ACTION_LABEL" desc="DarkTrek Sync manage action label">
         Manage your synced devices
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SYNC_MANAGER_TITLE" desc="Brave Sync manager title">
+      <message name="IDS_SETTINGS_BRAVE_SYNC_MANAGER_TITLE" desc="DarkTrek Sync manager title">
         Sync Manager
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SYNC_SETTINGS_TITLE" desc="Brave Sync settings title">
+      <message name="IDS_SETTINGS_BRAVE_SYNC_SETTINGS_TITLE" desc="DarkTrek Sync settings title">
         Sync Settings
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SYNC_SETTINGS_SUBTITLE" desc="Brave Sync settings subtitle">
+      <message name="IDS_SETTINGS_BRAVE_SYNC_SETTINGS_SUBTITLE" desc="DarkTrek Sync settings subtitle">
         Manage what information you would like to sync between devices. These settings only affect this device.
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SYNC_DEVICE_LIST_TITLE" desc="Brave Sync device list title">
+      <message name="IDS_SETTINGS_BRAVE_SYNC_DEVICE_LIST_TITLE" desc="DarkTrek Sync device list title">
         Device List
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SYNC_DEVICE_LIST_SUBTITLE" desc="Brave Sync device list subtitle">
+      <message name="IDS_SETTINGS_BRAVE_SYNC_DEVICE_LIST_SUBTITLE" desc="DarkTrek Sync device list subtitle">
         The device list below includes all devices in your sync chain. Each device can be managed from any other device.
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SYNC_DEVICE_LIST_NAME_COLUMN" desc="Brave Sync device list table column title for device name">
+      <message name="IDS_SETTINGS_BRAVE_SYNC_DEVICE_LIST_NAME_COLUMN" desc="DarkTrek Sync device list table column title for device name">
         Device Name
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SYNC_DEVICE_LIST_NAME_THIS_DEVICE" desc="Brave Sync device list label for device which is the device the user is currently using">
+      <message name="IDS_SETTINGS_BRAVE_SYNC_DEVICE_LIST_NAME_THIS_DEVICE" desc="DarkTrek Sync device list label for device which is the device the user is currently using">
         <ph name="DEVICE_NAME">$1<ex>my-computer-1</ex></ph> (This Device)
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SYNC_DEVICE_LIST_LAST_ACTIVE_COLUMN" desc="Brave Sync device list table column title for last active date">
+      <message name="IDS_SETTINGS_BRAVE_SYNC_DEVICE_LIST_LAST_ACTIVE_COLUMN" desc="DarkTrek Sync device list table column title for last active date">
         Last Active
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SYNC_DEVICE_LIST_REMOVE_COLUMN" desc="Brave Sync device list table column title for remove other device buttons">
+      <message name="IDS_SETTINGS_BRAVE_SYNC_DEVICE_LIST_REMOVE_COLUMN" desc="DarkTrek Sync device list table column title for remove other device buttons">
         Remove
       </message>
-      <message name="IDS_BRAVE_SYNC_SETUP_TITLE" desc="The Brave Sync title.">
+      <message name="IDS_BRAVE_SYNC_SETUP_TITLE" desc="The DarkTrek Sync title.">
         Sync Setup
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SYNC_WORD_COUNT" desc="Text for Brave Sync word count message.">
+      <message name="IDS_SETTINGS_BRAVE_SYNC_WORD_COUNT" desc="Text for DarkTrek Sync word count message.">
         Word count: <ph name="WORD_COUNT">$1<ex>24</ex></ph>
       </message>
       <message name="IDS_SETTINGS_BRAVE_SYNC_COPIED_TEXT" desc="The success state telling the user that a secret code was copied to the clipboard">
@@ -595,7 +595,7 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
         There was an error displaying the QR code, please refresh and try again.
       </message>
       <message name="IDS_BRAVE_SYNC_SETUP_DESCRIPTION" desc="The Sync phrase explaining what happens when you start a new sync chain. Appears when sync is disabled.">
-        To start, you will need Brave installed on all the devices you plan to sync. To chain them together, start a sync chain that you will use to securely link all of your devices together.
+        To start, you will need DarkTrek installed on all the devices you plan to sync. To chain them together, start a sync chain that you will use to securely link all of your devices together.
       </message>
       <message name="IDS_BRAVE_SYNC_START_NEW_CHAIN_BUTTON" desc="The Sync button that triggers a modal to start a new sync chian">
         Start a new Sync Chain
@@ -616,7 +616,7 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
         Sync Chain QR Code
       </message>
       <message name="IDS_BRAVE_SYNC_SCAN_CODE_DESCRIPTION_PARTIAL_1" desc="The Sync instructions for the `scan sync code` modal partial phrase (1)">
-        On your mobile device, navigate to Brave Sync in the Settings panel and click the button
+        On your mobile device, navigate to DarkTrek Sync in the Settings panel and click the button
       </message>
       <message name="IDS_BRAVE_SYNC_SCAN_CODE_DESCRIPTION_PARTIAL_2" desc="The Sync instructions for the `scan sync code` modal partial phrase (2)">
         “Scan Sync Code”.
@@ -628,7 +628,7 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
         Sync Chain Code
       </message>
       <message name="IDS_BRAVE_SYNC_VIEW_CODE_DESCRIPTION_PARTIAL_1" desc="The Sync instructions for the `view sync code` modal partial phrase (1)">
-        On your target computer, navigate to Brave Sync in settings and click the button
+        On your target computer, navigate to DarkTrek Sync in settings and click the button
       </message>
       <message name="IDS_BRAVE_SYNC_VIEW_CODE_DESCRIPTION_PARTIAL_2" desc="The Sync instructions for the `view sync code` modal partial phrase (2)">
         “I have a Sync Code”.
@@ -670,20 +670,20 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
         Are you sure you want to remove the selected device from the sync chain?
       </message>
       <!-- Sync Infobar -->
-      <message name="IDS_BRAVE_SYNC_V2_MIGRATE_INFOBAR_MESSAGE" desc="Message text shown to users who used a previous version of Brave Sync and need to perform setup again for the new version.">
-        Brave Sync has been upgraded and requires setup
+      <message name="IDS_BRAVE_SYNC_V2_MIGRATE_INFOBAR_MESSAGE" desc="Message text shown to users who used a previous version of DarkTrek Sync and need to perform setup again for the new version.">
+        DarkTrek Sync has been upgraded and requires setup
       </message>
-      <message name="IDS_BRAVE_SYNC_V2_MIGRATE_INFOBAR_COMMAND" desc="Command text shown to users who used a previous version of Brave Sync and need to perform setup again for the new version.">
+      <message name="IDS_BRAVE_SYNC_V2_MIGRATE_INFOBAR_COMMAND" desc="Command text shown to users who used a previous version of DarkTrek Sync and need to perform setup again for the new version.">
         Begin Setup
       </message>
       <!-- Help tips Page -->
-      <message name="IDS_SETTINGS_HELP_TIPS" desc="Title for an item in the 'Help tips' section of Brave Settings">
+      <message name="IDS_SETTINGS_HELP_TIPS" desc="Title for an item in the 'Help tips' section of DarkTrek Settings">
         Help tips
       </message>
       <message name="IDS_SETTINGS_HELP_TIPS_SHOW_BRAVE_WAYBACK_MACHINE_PROMPT" desc="The label describing the 'wayback machine' toggle option">
         Show Wayback Machine prompt on 404 pages
       </message>
-      <!-- Brave Theme -->
+      <!-- DarkTrek Theme -->
       <message name="IDS_BRAVE_THEME_TYPE_LIGHT" desc="Text for light theme type">
         Light
       </message>
@@ -711,15 +711,15 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
           Report a Broken Site
         </message>
       </if>
-      <!-- Brave Default Extensions -->
-      <message name="IDS_SETTINGS_BRAVE_DEFAULT_EXTENSIONS_TITLE" desc="The title for Brave default extensions in settings">
+      <!-- DarkTrek Default Extensions -->
+      <message name="IDS_SETTINGS_BRAVE_DEFAULT_EXTENSIONS_TITLE" desc="The title for DarkTrek default extensions in settings">
         Extensions
       </message>
       <message name="IDS_SETTINGS_WEBTORRENT_ENABLED_DESC" desc="The description for WebTorrent switch in settings">
         Uses WebTorrent to display torrents directly in the browser. Supports torrent files and magnet links.
       </message>
       <message name="IDS_BRAVE_WALLET_WEB3_PROVIDER_BRAVE" desc="Select control value for which web3 provider to use">
-        Brave Wallet
+        DarkTrek Wallet
       </message>
       <message name="IDS_BRAVE_WALLET_WEB3_PROVIDER_ASK" desc="Select control value for which web3 provider to use">
         Ask
@@ -736,7 +736,7 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
       <message name="IDS_BRAVE_WALLET_WEB3_PROVIDER_METAMASK" desc="Select control value for which web3 provider to use">
         MetaMask
       </message>
-      <message name="IDS_SETTINGS_BRAVE_WEB3_PROVIDER_DESC" desc="The description for Brave web3 provider select control in settings">
+      <message name="IDS_SETTINGS_BRAVE_WEB3_PROVIDER_DESC" desc="The description for DarkTrek web3 provider select control in settings">
         Ethereum provider for using Dapps
       </message>
       <message name="IDS_SETTINGS_LOAD_CRYPTO_WALLETS_ON_STARTUP" desc="The description for always loading the Crypto Wallets extension on startup">
@@ -820,14 +820,14 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
      <message name="IDS_SETTINGS_MEDIA_ROUTER_ENABLED_DESC" desc="The description for Media Router switch in settings">
         Uses Media Router component to enable Chromecast in the browser.
       </message>
-     <message name="IDS_SETTINGS_RESTART_NOTICE" desc="Notifies the user that they need to relaunch Brave">
-        Your changes will take effect the next time you relaunch Brave.
+     <message name="IDS_SETTINGS_RESTART_NOTICE" desc="Notifies the user that they need to relaunch DarkTrek">
+        Your changes will take effect the next time you relaunch DarkTrek.
       </message>
-     <message name="IDS_SETTINGS_RELAUNCH_BUTTON_LABEL" desc="Notifies the user that they need to relaunch Brave">
+     <message name="IDS_SETTINGS_RELAUNCH_BUTTON_LABEL" desc="Notifies the user that they need to relaunch DarkTrek">
         Relaunch Now
       </message>
      <message name="IDS_SETTINGS_IPFS_COMPANION_ENABLED_DESC" desc="The description for IPFS companion switch in settings">
-        Uses the IPFS Companion extension for enhanced IPFS support in Brave, including access to common IPFS tasks from your browser bar.
+        Uses the IPFS Companion extension for enhanced IPFS support in DarkTrek, including access to common IPFS tasks from your browser bar.
       </message>
       <message name="IDS_SETTINGS_MANAGE_EXTENSIONS_LABEL" desc="The label of manage extensions link in settings">
         Manage extensions
@@ -842,8 +842,8 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
       <message name="IDS_EXTENSIONS_BRAVE_ITEM_CHROME_WEB_STORE" desc="Label for button to visit the Web Extensions Store.">
         View in Web Extensions Store
       </message>
-      <message name="IDS_EXTENSIONS_BRAVE_PRIVATE_WARNING" desc="Warns the user that Brave cannot prevent extensions from recording history in private mode and Tor mode">
-        Warning: Brave cannot prevent extensions from recording your browsing history.
+      <message name="IDS_EXTENSIONS_BRAVE_PRIVATE_WARNING" desc="Warns the user that DarkTrek cannot prevent extensions from recording history in private mode and Tor mode">
+        Warning: DarkTrek cannot prevent extensions from recording your browsing history.
       </message>
       <message name="IDS_EXTENSIONS_BRAVE_SPANNING_WARNING" desc="Warns the user that extension will make network connection not through Tor when it is in spanning mode">
         If this extension makes network requests, they will not use Tor or private mode.
@@ -851,7 +851,7 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
       <message name="IDS_EXTENSIONS_BRAVE_PRIVATE_AND_TOR_WARNING" desc="Displayed in extensions management UI after an extension is selected to be run in private mode and Tor mode.">
         To disable this extension in private mode and Tor mode, unselect this option.
       </message>
-      <!-- Brave Clear Browsing Data On Exit Settings -->
+      <!-- DarkTrek Clear Browsing Data On Exit Settings -->
       <message name="IDS_SETTINGS_BRAVE_ON_EXIT" desc="Clear Browsing Data dialog On exit tab label">
         On exit
       </message>
@@ -873,19 +873,19 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
       </message>
       <!-- App shortcuts -->
       <if expr="not is_win">
-        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BRAVE_NIGHTLY" desc="Name for the Brave Apps Start Menu folder name.">
+        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BRAVE_NIGHTLY" desc="Name for the DarkTrek Apps Start Menu folder name.">
           DarkTrek Browser Nightly Apps
         </message>
-        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BRAVE_BETA" desc="Name for the Brave Apps Start Menu folder name.">
+        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BRAVE_BETA" desc="Name for the DarkTrek Apps Start Menu folder name.">
           DarkTrek Browser Beta Apps
         </message>
-        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BRAVE_DEV" desc="Name for the Brave Apps Start Menu folder name.">
+        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BRAVE_DEV" desc="Name for the DarkTrek Apps Start Menu folder name.">
           DarkTrek Browser Dev Apps
         </message>
-        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BRAVE_STABLE" desc="Name for the Brave Apps Start Menu folder name.">
+        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BRAVE_STABLE" desc="Name for the DarkTrek Apps Start Menu folder name.">
           DarkTrek Browser Apps
         </message>
-        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BRAVE_DEVELOPMENT" desc="Name for the Brave Apps Start Menu folder name.">
+        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BRAVE_DEVELOPMENT" desc="Name for the DarkTrek Apps Start Menu folder name.">
           DarkTrek Browser Development Apps
         </message>
       </if>
@@ -900,7 +900,7 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
       </message>
       <if expr="not is_android">
         <message name="IDS_BRAVE_AVATAR_LABEL_56" desc="The label for the avatar_edgy_brave.png avatar.">
-            Avatar Edgy Brave
+            Avatar Edgy DarkTrek
         </message>
         <message name="IDS_BRAVE_AVATAR_LABEL_57" desc="The label for the avatar_edgy_ocean.png avatar.">
             Avatar Edgy Ocean
@@ -921,7 +921,7 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
             Avatar Paladin Rewards
         </message>
         <message name="IDS_BRAVE_AVATAR_LABEL_63" desc="The label for the avatar_paladin_brave.png avatar.">
-            Avatar Paladin Brave
+            Avatar Paladin DarkTrek
         </message>
         <message name="IDS_BRAVE_AVATAR_LABEL_64" desc="The label for the avatar_paladin_ocean.png avatar.">
             Avatar Paladin Ocean
@@ -942,7 +942,7 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
             Avatar Gleam Rewards
         </message>
         <message name="IDS_BRAVE_AVATAR_LABEL_70" desc="The label for the avatar_gleam_brave.png avatar.">
-            Avatar Gleam Brave
+            Avatar Gleam DarkTrek
         </message>
         <message name="IDS_BRAVE_AVATAR_LABEL_71" desc="The label for the avatar_gleam_ocean.png avatar.">
             Avatar Gleam Ocean
@@ -963,7 +963,7 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
             Avatar Oval Rewards
         </message>
         <message name="IDS_BRAVE_AVATAR_LABEL_77" desc="The label for the avatar_oval_brave.png avatar.">
-            Avatar Oval Brave
+            Avatar Oval DarkTrek
         </message>
         <message name="IDS_BRAVE_AVATAR_LABEL_78" desc="The label for the avatar_oval_ocean.png avatar.">
             Avatar Oval Ocean
@@ -984,7 +984,7 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
             Avatar Bonbon Rewards
         </message>
         <message name="IDS_BRAVE_AVATAR_LABEL_84" desc="The label for the avatar_bonbon_brave.png avatar.">
-            Avatar Bonbon Brave
+            Avatar Bonbon DarkTrek
         </message>
         <message name="IDS_BRAVE_AVATAR_LABEL_85" desc="The label for the avatar_bonbon_ocean.png avatar.">
             Avatar Bonbon Ocean
@@ -1001,9 +1001,9 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
         <message name="IDS_BRAVE_AVATAR_LABEL_89" desc="The label for the avatar_bonbon_ninja.png avatar.">
             Avatar Bonbon Ninja
         </message>
-        <!-- Brave default browser dialog -->
+        <!-- DarkTrek default browser dialog -->
         <message name="IDS_BRAVE_DEFAULT_BROWSER_DIALOG_HEADER_TEXT" desc="The header text for default browser dialog">
-          Set Brave as your default browser
+          Set DarkTrek as your default browser
         </message>
         <message name="IDS_BRAVE_DEFAULT_BROWSER_DIALOG_CONTENTS_TEXT" desc="The contents for default browser dialog">
           Keep browsing the web faster - up to 6x faster on major news sites.
@@ -1019,7 +1019,7 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
         </message>
       </if>
 
-      <!-- Brave Ads -->
+      <!-- DarkTrek Ads -->
       <message name="IDS_BRAVE_ADS_AD_NOTIFICATION_CLOSE_BUTTON" desc="Text to be spoken for the ad notification close button">
         Close
       </message>
@@ -1066,7 +1066,7 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
 
       <!-- P3A -->
       <message name="IDS_BRAVE_CONFIRM_P3A_INFO_BAR" desc="Text that shows on the info bar where user acknowledges the P3A message">
-        Brave uses completely private product analytics to estimate the overall usage of certain features
+        DarkTrek uses completely private product analytics to estimate the overall usage of certain features
       </message>
       <message name="IDS_BRAVE_CONFIRM_P3A_INFO_BAR_ACKNOWLEDGE" desc="OK button that shows on the info bar where user acknowledges the P3A message">
         Got it
@@ -1075,10 +1075,10 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
         Disable
       </message>
       <message name="IDS_BRAVE_P3A_ENABLE_SETTING" desc="Description that shows in settings for toggling P3A">
-        Automatically send completely private product analytics to Brave
+        Automatically send completely private product analytics to DarkTrek
       </message>
       <message name="IDS_BRAVE_P3A_ENABLE_SETTING_SUBITEM" desc="Description that shows under main toggle setting for P3A">
-        This anonymous info only lets Brave estimate the overall usage of certain features.
+        This anonymous info only lets DarkTrek estimate the overall usage of certain features.
       </message>
       <!-- Web3 detection -->
       <message name="IDS_BRAVE_CRYPTO_WALLETS_LAZY_LOAD_TEXT" desc="Text that shows on the info bar when a Dapp is detected">
@@ -1109,7 +1109,7 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
       <message name="IDS_BRAVE_IPFS_LEARN_MORE">
         Learn more about IPFS and privacy
       </message>
-      <!-- Brave Wayback Machine -->
+      <!-- DarkTrek Wayback Machine -->
       <message name="IDS_BRAVE_WAYBACK_MACHINE_INFOBAR_PAGE_MISSING_TEXT" desc="The label for sorry message when page is not available on infobar">
         Sorry, that page is missing.
       </message>
@@ -1122,7 +1122,7 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
       <message name="IDS_BRAVE_WAYBACK_MACHINE_CHECK_BUTTON_TEXT" desc="The label for check button on wayback infobar">
         Check for saved version
       </message>
-      <!-- Brave's copyright statement -->
+      <!-- DarkTrek's copyright statement -->
       <message name="IDS_BRAVE_VERSION_UI_LICENSE" desc="The label below the copyright message, containing the URLs.">
         DarkTrek is made available to you under the <ph name="BEGIN_LINK_MPL">&lt;a target="_blank" rel="noopener noreferrer" href="$1"&gt;</ph>Mozilla Public License 2.0<ph name="END_LINK_MPL">&lt;/a&gt;</ph> (MPL) and includes <ph name="BEGIN_LINK_OSS">&lt;a target="_blank" rel="noopener noreferrer" href="$2"&gt;</ph>open source software<ph name="END_LINK_OSS">&lt;/a&gt;</ph> under a variety of other licenses.
         You can read <ph name="BEGIN_LINK_BUILD_INSTRUCTIONS">&lt;a target="_blank" rel="noopener noreferrer" href="$3"&gt;</ph>instructions on how to download and build for yourself<ph name="END_LINK_BUILD_INSTRUCTIONS">&lt;/a&gt;</ph> the specific <ph name="BEGIN_LINK_SOURCE_CODE">&lt;a target="_blank" rel="noopener noreferrer" href="$4"&gt;</ph>source code used to create this copy<ph name="END_LINK_SOURCE_CODE">&lt;/a&gt;</ph>.
@@ -1162,7 +1162,7 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
         For quick access, place your bookmarks here on the bookmarks bar.
       </message>
       <message name="IDS_SETTINGS_RESET_REWARDS_DATA" desc="The label for opening rewards manage wallet dialog">
-        Reset Brave Rewards data...
+        Reset DarkTrek Rewards data...
       </message>
       <!--First-run dialog messages -->
       <message name="IDS_FR_ENABLE_LOGGING_BRAVE" desc="Label for checkbox to ask whether to send crash reports to brave">
@@ -1173,7 +1173,7 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
       </message>
       <if expr="is_macosx">
         <message name="IDS_FIRSTRUN_DLG_MAC_OPTIONS_SEND_USAGE_STATS_LABEL_BRAVE" desc="Label for checkbox to ask whether to send crash reports to brave">
-          Help improve <ph name="PRODUCT_NAME">$1<ex>Brave</ex></ph> by automatically sending crash reports
+          Help improve <ph name="PRODUCT_NAME">$1<ex>DarkTrek</ex></ph> by automatically sending crash reports
         </message>
       </if>
     </messages>
